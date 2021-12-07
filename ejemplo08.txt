@@ -1,9 +1,20 @@
 //  Ejemplo de uso de arreglos
 1.  Inicio
-2.  (nombresEstudiantes(4), x(50)[{a-z, {A-Z, BS}}])
+2.  (nombresEstudiantes(4), x(50)[{a-z, {A-Z}, {BS}]) // 0,1,2,3
+3.  (apellidosEstudiantes(4), x(50)[{a-z, {A-Z}, {BS}]) // 0,1,2,3,
+
 3.  (notasEstudiantes(4),i[1-n])
 4.  notasEstudiantes <-- {9, 10, 7, 8}
+			 0  1   2  3
 5.  nombresEstudiantes <-- {"Mónica", "Homero", "Antonio", "Vanesa"}
-6.  Escribir nombresEstudiantes[0] + " " + notasEstudiantes[0]
-7.  Escribir nombresEstudiantes[3] + " " + notasEstudiantes[3]
+			     0          1          2         3  
+5.  apellidosEstudiantes <-- {"Sotomayor", "Flores", "Salinas", "Samaniego"}
+
+6.  Escribir nombresEstudiantes[1] + " " + apellidosEstudiantes[1]+ " " + notasEstudiantes[1]
+7.  Escribir nombresEstudiantes[0] + " " + apellidosEstudiantes[0] + notasEstudiantes[0]
 8.  Fin
+
+
+// pantalla
+// Homero Flores 10
+// Mónica Sotomayor 9
